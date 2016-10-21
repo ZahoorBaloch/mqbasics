@@ -31,7 +31,10 @@ public class QManagerService {
 				queueManager = new MQQueueManager(queueManagerName);
 			}catch(com.ibm.mq.MQException mqex){
 				logger.log(Level.SEVERE, ConfigurationService.getConfiguration().getString("qmanager.connection.exception"), mqex);
+<<<<<<< HEAD
 				System.out.println("merge test at line 34 developer 2");
+=======
+>>>>>>> 0300362cdcecdcffbc108746e973a1860133414f
 			}
 	}
 	/**
